@@ -1,0 +1,89 @@
+.navbar .navbar-nav
+{
+    float: right;
+}
+
+.navbar
+{
+    background-color: green;
+}
+.navbar .navbar-header a
+{
+    color: black;
+}
+.navbar .navbar-nav li a
+{
+    color: white;
+}
+.jojo
+{
+	font-size: 50px;
+	color: orange;
+}
+.image
+{
+    background-image: url('../images/foufou2.JPG');
+    background-size: cover;
+    height: 500px;
+    width: 100%
+    padding-top: 100px;
+    text-align: center;
+}
+.image h1
+{
+    color: orangered;
+    font-weight: bolder;
+}
+
+/* FOOTER */
+footer
+{
+    background-color: black;
+    height: 250px;
+    width: 100%;
+    
+}
+footer h1
+{
+    font-size: 25px !important;
+    color: white ! important;
+    
+}
+footer ul li
+{
+    list-style-type: none;
+    margin-right: 10px;
+    font-size: 30px;
+}
+footer ul li a .fa-facebook
+{
+    color: dodgerblue;
+}
+footer ul li a .fa-twitter
+{
+    color: skyblue;
+}
+footer ul li a .fa-whatsapp
+{
+    color: green;
+}
+footer ul li a .fa-youtube
+{
+    color: red;
+}
+footer ul li a .site1
+{
+    color: white;
+    font-size: 15px
+}
+.img 
+{
+    margin-top: 15px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,113 @@
+
+img
+{
+	font-size: 5px;
+	height:100px;
+    width: 400px;
+	padding-top: 10;
+	padding-bottom: 30px;
+	padding-left: 100px;
+}
+
+.martial
+{
+    text-align: center;
+    color: blue;
+    font-size: 15px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    padding-top: 100px;
+    margin-bottom: 50px;
+}
+
+#armand
+{
+    font-family: serif;
+    font-size: 15px;
+
+}
+
+form
+{
+	background-color: blue;
+    text-align: center;
+	padding-right: 30px;
+	padding-left: 0px;
+}
+.form-control
+{
+    height: 40px;
+    border-radius:30px;
+    margin: 20px;    
+}
+
+input
+{
+    font-family: serif;
+    font-size: 200px;
+}
+.button1
+{
+   height: 45px;
+    width: 400px;
+    background: red;
+    color: #fff;
+	float: left;
+}
+.button2
+{
+   height: 20px;
+    width: 100px;
+    background: blue;
+    color: #fff;
+	float: right;
+}
+
+/* FOOTER */
+footer
+{
+    background-color: black;
+    height: 250px;
+    width: 100%;
+    
+}
+footer h1
+{
+    font-size: 25px !important;
+    color: white ! important;
+    
+}
+footer ul li
+{
+    list-style-type: none;
+    margin-right: 10px;
+    font-size: 30px;
+}
+footer ul li a .fa-facebook
+{
+    color: dodgerblue;
+}
+footer ul li a .fa-twitter
+{
+    color: skyblue;
+}
+footer ul li a .fa-whatsapp
+{
+    color: green;
+}
+footer ul li a .fa-youtube
+{
+    color: red;
+}
+footer ul li a .site1
+{
+    color: white;
+    font-size: 15px
+}
+.img 
+{
+    margin-top: 15px;
+}
+
+
+
