@@ -1,0 +1,513 @@
+.navbar-nav
+{
+	float: right;
+}
+
+.navbar-header a
+{
+	color: red;
+	text-align: center;
+}
+
+.navbar
+{
+	background-color: greenyellow;
+	height: 100px;
+	width: auto;
+	
+}
+
+.navbar-nav li
+{
+	text-align: right;
+}
+
+.navbar-nav li a
+{
+	font-size: 20px;
+	height: 150px;
+	margin-top: 25;
+	margin-right: 10px;
+}
+
+/* image background */
+
+.image
+{
+    background-image: url('images/logo_didiezo1.png');
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+}
+
+footer
+{
+	background-color: black;
+	height: 130px;
+	
+}
+
+h1
+{
+	color: red;
+	text-align: right;
+}
+
+/*==================================== caroussel de de nos partenaires ========================*/
+
+
+.Slide-image
+{
+    margin-top: 15px;
+}
+#Carousel .carousel-indicators
+{
+    font-size: 20px;
+    display: none;
+}
+#Carousel .carousel-indicators li.active
+{
+    background-color: darkgreen;
+    border: 1px solid rgb(155,78,0);
+}
+
+
+#carousel h2
+{
+    color:whitesmoke;
+    padding: 12px;
+    margin: 12px;
+    text-align: center;
+    font-size: 39px;
+    font-weight: bolder;
+    font-family: serif;
+    margin-top: 30px;
+    background-color: orangered;
+    border-radius: 12px;
+    margin-top: 12px;
+}
+
+.Slide-image .item
+{
+    height:auto;
+    width: 100%;
+}
+.Slide-image .item .img-responsive
+{
+   width: 100%;
+   height:20rem;
+   border-radius: 5px;
+
+}
+#form .col
+{
+ border:1px solid blue;
+ height: 45rem;
+ padding: 30px;
+margin: 20px;
+border-radius: 10px;
+margin-bottom: 20px; 
+background-color: aliceblue;
+}
+.content
+{
+    background-color: silver;
+    height: 600px;
+    margin-bottom: 30px;
+    background-image:url("../images/route1.jpg");
+}
+
+.fom h2
+{
+    color: black !important;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: bolder;
+    font-size: 5rem;
+    font-family: cursive; 
+}
+ 
+#form label
+{
+    color: black;
+    font-weight: bolder;
+    font-size: 2rem;
+    font-family: monospace;
+}
+#form  .form-control
+{
+    height: 50px;
+    text-align: center;
+    margin-top: 12px;
+}
+#form  .form-control option
+{
+    background-color: black;
+    color: aliceblue;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: cursive;
+    white-space: inherit;
+    width: 40px;
+    
+    
+}
+#form  .subm
+{
+    text-align: center;
+    margin-top: 60px;
+    position: center;
+}
+
+/* formulaire */
+
+form
+{
+	background-color: blue;
+    text-align: center;
+	padding-right: 30px;
+	padding-left: 0px;
+}
+.form-control
+{
+    height: 40px;
+    border-radius:30px;
+    margin: 20px;    
+}
+
+input
+{
+    font-family: serif;
+    font-size: 200px;
+}
+.button1
+{
+   height: 45px;
+    width: 400px;
+    background: red;
+    color: #fff;
+	float: left;
+}
+.button2
+{
+   height: 20px;
+    width: 100px;
+    background: blue;
+    color: #fff;
+	float: right;
+}
+
+/* footer */
+div.footer
+{
+    background-color: #111;
+    color: white;
+    margin-top: 10px;
+}
+div.footer p.copy
+{
+    margin-top: -12px;
+    font-size: 10px;
+    word-spacing: 4px;
+    font-family: Tahoma;
+}
+div.footer h3
+{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 15px;
+    border: 1px solid  white;
+}
+div.footer .cont
+{
+    padding: 0 25px;
+}
+div.footer .containera
+{
+    padding: 0 25px;
+}
+div.footer .galerie
+{
+    padding: 0 25px;
+}
+div.footer .cont p:nth-child(1)
+{
+    font-weight: bold;
+    text-align: center;
+}
+div.footer .cont p:nth-child(2)
+{
+    font-weight: bold;
+    font-size: 19px;
+}
+div.footer .cont p a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+div.footer .cont p
+{
+    font-size: 16px;
+}
+div.footer .cont .fa-map-marker,.cont .fa-phone,.cont .fa-envelope-o
+{
+    font-size: 15px;
+}
+div.footer .containera input
+{
+    margin-bottom: 15px;
+    width: 50%;
+    background: none;
+    border: 1px solid gray !important;
+    color: white;
+}
+div.footer textarea
+{
+    width: 100%;
+    margin-bottom: 10px;
+    background: none !important;
+    border: 1px solid gray !important;
+    color: white;
+}
+div.footer textarea:focus
+{
+    box-shadow: none !important;
+}
+div.footer .containera input[type="submit"]
+{
+    background-color: #444;
+    color: orange;
+    border: none;
+    width: 100%;
+    height: 40px;
+    font-size: 15px;
+    transition: all 0.75s ease-out;
+}
+div.footer .containera input[type="submit"]:hover
+{
+    color: white;
+    border: 1px solid white !important;
+}
+div.footer ul.breadcrumb
+{
+    list-style-type: none;
+    text-align: center;
+    margin: 0 auto;
+    background: none !important;
+}
+div.footer ul.breadcrumb li
+{
+    display: inline-block;
+}
+div.footer ul.breadcrumb li a
+{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: Trebuchet Ms   ;
+    font-weight: bold;
+}
+div.footer ul.breadcrumb li a:hover
+{
+    color: lightsalmon;
+}
+div.footer .social{
+	margin-top: 17px;
+}
+div.footer .social a
+{
+    display: block;
+  	margin-left: 14px;	
+  	font-size: 45px;
+  	transition: all 0.5s ease-in;
+    background: white;
+    height: 38px;
+    width: 37px !important;
+    border-radius: 6px;
+    text-decoration: none;
+}
+div.footer .social a .fa
+{
+    margin-top: -4px !important;
+    margin-bottom: -7px !important;
+    margin-left: -7px !important;
+    margin-right: -7px;
+    display: block;
+}
+div.footer .social a .fa:hover
+{
+    color: #444 !important;
+}
+div.footer .social a:hover
+{
+	transform: rotateY(540deg);
+	background: white;
+    text-decoration: none;
+}
+div.footer .social a:nth-child(1)
+{
+	color: #3a7db3 !important;
+	display: inline-block;
+	width: 50px;
+	text-align: center;
+}
+	
+div.footer .social a:nth-child(2)
+{
+	color: blue !important;
+	display: inline-block;
+	width: 50px;
+	text-align: center;
+}
+div.footer .social a:nth-child(3)
+{
+	color: red;
+	text-align: center;
+	display: inline-block;
+	width: 50px;
+}
+div.footer  .social a:nth-child(4)
+{
+    color: darkred;
+    text-align: center;
+    width: 50px;
+    display: inline-block;
+    height: 25px;
+}
+div.footer  .social a:nth-child(5)
+{
+    color: limegreen;
+    background: none;
+    text-align: center;
+    display: inline-block;
+}
+div.pa
+{
+    width: 50px;
+    height: 50px;
+    background: #111;
+    color: white;
+    font-size: 35px;
+    padding: 0 5px;
+    position: fixed;
+    top: 700px;
+    left: 1350px;
+}
+div.pa a
+{
+    color: white;
+}
+
+/* les sections */
+
+.divider
+{
+    text-align: center;
+}
+.green-divider
+{
+    width: 80px;
+    height: 3px;
+    background: lime;
+    margin: 0 auto;
+    display:inline-block;
+}
+.fa-envira
+{
+    color: lime;
+    font-size: 25px;
+}
+section.welcome welcome container-fluid h1
+{
+	text-align: center;
+}
+section.welcome
+{
+    width: 100%;
+    font-size: 17px;
+    font-family: inherit;
+    text-align: center;
+    margin-top: 30px;
+}
+
+
+
+section.welcome h1
+{
+    text-align: center;
+    font-size: 42px;
+   margin-bottom: -10px;
+}
+section.welcome p
+{
+    margin-top: 20px;
+}
+section.welcome .row div:nth-child(2)
+{
+    background: white;
+    color: black;
+}
+
+section.projets
+{
+    width: 100%;
+    font-family: inherit;
+    margin-top: 70px;
+}
+section.projets div.bord
+{
+    background: #dedede;
+    padding: 30px;
+    font-size: 15px;
+    margin-top: 20px;
+}
+section.projets div.bord h3
+{
+    font-weight: bold;
+    
+}
+section.projets h1
+{
+    font-size: 42px;
+    margin-bottom: -10px;
+    text-align: center;
+}
+section.cultures
+{
+    width: 100%;
+    background: none;
+    margin-top: 70px;
+    margin-bottom:-40px;
+}
+section.cultures div.bord2
+{
+     background: url('../images/Untitled-2.jpg') no-repeat fixed;
+	padding: 40px;
+    margin-top: 20px;
+    height: 500px;
+    overflow: scroll;
+}
+section.cultures div.row
+{
+    margin: 0 auto;
+}
+section.cultures h1
+{
+    text-align: center;
+   margin-bottom: -10px;
+    font-size: 42px;
+}
+section.cultures h3
+{
+    text-align: center;
+    margin-bottom: 40px;
+    color: black;
+    font-weight: bold;
+}
+.Culavocats,.Culcoffe, .Culcacao,.Culcoton,.Culcajou,.Culsoja
+{
+    margin-top: 7px;
+}
